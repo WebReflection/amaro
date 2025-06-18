@@ -5,7 +5,7 @@
     "강동윤 <kdy1997.dev@gmail.com>",
     "Andrea Giammarchi"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "Apache-2.0",
   "description": "@swc/wasm-typescript module for browsers",
   "main": "amaro.js",
