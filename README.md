@@ -7,6 +7,6 @@ This is [@swc/wasm-typescript](https://www.npmjs.com/package/@swc/wasm-typescrip
 import { transformSync } from '@webreflection/amaro';
 
 transformSync('const s:string = "amaro"').code;
-// const s:       = "amaro"
+// const s        = "amaro"
 // that's it 🥳
 ```
