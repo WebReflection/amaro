@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cat ./node_modules/@swc/wasm-typescript/LICENSE >> ./LICENSE
+cat ./node_modules/@swc/wasm-typescript/LICENSE > ./LICENSE
 echo 'const swc = ((require, module, exports = module.exports) => {' > ./amaro.js
 cat ./node_modules/@swc/wasm-typescript/wasm.js >> ./amaro.js
 echo 'return module.exports;
