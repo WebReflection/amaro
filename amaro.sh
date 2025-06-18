@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 cat ./node_modules/@swc/wasm-typescript/LICENSE > ./LICENSE
 echo 'const swc = ((require, module, exports = module.exports) => {' > ./amaro.js
