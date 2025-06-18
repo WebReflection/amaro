@@ -1,0 +1,35 @@
+{
+  "name": "@webreflection/amaro",
+  "type": "module",
+  "collaborators": [
+    "강동윤 <kdy1997.dev@gmail.com>",
+    "Andrea Giammarchi"
+  ],
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "description": "@swc/wasm-typescript module for browsers",
+  "main": "amaro.js",
+  "module": "amaro.js",
+  "exports": {
+    ".": "./amaro.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "amaro.js"
+  ],
+  "scripts": {
+    "build": "sh amaro.sh && npm run test",
+    "test": "node -e 'import * as amaro from \"./amaro.js\"; console.log(amaro);'"
+  },
+  "devDependencies": {
+    "@swc/wasm-typescript": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/amaro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/amaro/issues"
+  },
+  "homepage": "https://github.com/WebReflection/amaro#readme"
+}
